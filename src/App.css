@@ -1,0 +1,30 @@
+.app-shell {
+  min-height: 100vh;
+  background: #050a14;
+}
+
+main {
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #050a14;
+  color: #f4f8ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
