@@ -1,0 +1,106 @@
+.certificados-section {
+  padding: 5rem 5%;
+  background: #0b1120;
+  color: #f4f8ff;
+}
+
+.certificados-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.certificado-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 220px;
+  padding: 1.5rem;
+  background: rgba(17, 24, 39, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1rem;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.certificado-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(0, 216, 255, 0.42);
+}
+
+.certificado-card-top {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.certificado-icon {
+  display: grid;
+  width: 2.5rem;
+  height: 2.5rem;
+  place-items: center;
+  color: #00d8ff;
+  background: rgba(0, 216, 255, 0.1);
+  border: 1px solid rgba(0, 216, 255, 0.2);
+  border-radius: 0.7rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.certificado-area {
+  color: #9aa7b8;
+  font-size: 0.85rem;
+}
+
+.certificado-card h3 {
+  margin: 0 0 1.5rem;
+  font-size: 1.25rem;
+}
+
+.certificado-preview-link {
+  display: block;
+  margin: 0 -0.5rem 1.25rem;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.6rem;
+}
+
+.certificado-preview {
+  width: 100%;
+  aspect-ratio: 1.45;
+  object-fit: cover;
+  transition: transform 0.2s ease;
+}
+
+.certificado-preview-link:hover .certificado-preview {
+  transform: scale(1.03);
+}
+
+.certificado-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: auto;
+}
+
+.certificado-actions a {
+  padding: 0.55rem 0.85rem;
+  border: 1px solid rgba(0, 216, 255, 0.35);
+  border-radius: 0.6rem;
+  color: #00d8ff;
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.certificado-actions a:hover {
+  color: #050a14;
+  background: #00d8ff;
+}
+
+@media (max-width: 900px) {
+  .certificados-grid {
+    grid-template-columns: 1fr;
+  }
+}

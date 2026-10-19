@@ -2,36 +2,36 @@ import './Perfil.css'
 
 const skillsData = [
   {
-    id: 'bi',
-    titulo: 'Business Intelligence',
-    descripcion: 'Diseño dashboards y modelos analíticos para transformar datos en decisiones estratégicas.',
-    nivel: 'Especializado',
+    id: 'datos',
+    titulo: 'Ciencia de datos',
+    descripcion: 'Formación introductoria en conceptos y procesos de ciencia de datos.',
+    nivel: 'Introducción al análisis de datos',
     estado: 'activo',
-    botonTexto: 'Experto',
+    botonTexto: 'Cisco',
   },
   {
-    id: 'web',
-    titulo: 'Desarrollo Web',
-    descripcion: 'Construyo interfaces modernas, funcionales y centradas en la experiencia del usuario.',
-    nivel: 'Avanzado',
+    id: 'bases-datos',
+    titulo: 'Bases de datos y SQL',
+    descripcion: 'Conocimientos de diseño de bases de datos y programación de consultas SQL.',
+    nivel: 'Diseño y consultas SQL',
     estado: 'activo',
-    botonTexto: 'Full Stack',
+    botonTexto: 'Oracle Academy',
   },
   {
-    id: 'automacion',
-    titulo: 'Automatización',
-    descripcion: 'Optimizo tareas repetitivas con procesos más ágiles, ordenados y eficientes.',
-    nivel: 'Eficiente',
+    id: 'programacion',
+    titulo: 'Programación',
+    descripcion: 'Fundamentos de programación con Python y Java.',
+    nivel: 'Python y Java',
     estado: 'activo',
-    botonTexto: 'Procesos',
+    botonTexto: 'Cisco · Oracle',
   },
   {
-    id: 'consultoria',
-    titulo: 'Consultoría',
-    descripcion: 'Acompaño a personas y empresas en la mejora de procesos digitales y soluciones prácticas.',
-    nivel: 'Práctico',
+    id: 'hardware',
+    titulo: 'Hardware',
+    descripcion: 'Conocimientos fundamentales sobre componentes y hardware de computadoras.',
+    nivel: 'Fundamentos de hardware',
     estado: 'activo',
-    botonTexto: 'Soporte',
+    botonTexto: 'Cisco',
   },
 ]
 
@@ -46,13 +46,15 @@ function Perfil() {
       <div className="perfil-grid">
         <div className="perfil-copy">
           <p>
-            Soy Adolfo Choque Coque, desarrollador con enfoque en soluciones web, análisis de
-            datos y automatización de procesos. Me apasiona crear herramientas útiles que
-            aporten valor real y mejoren la productividad.
+            Soy Adolfo Choque Coque y me interesa la tecnología, la programación y el análisis
+            de datos. Mi formación incluye cursos de ciencia de datos, Python, hardware,
+            diseño de bases de datos, SQL y Java, realizados con Cisco Networking Academy y
+            Oracle Academy.
           </p>
           <p>
-            Mi trabajo combina tecnología, lógica y diseño para entregar experiencias digitales
-            claras, eficientes y alineadas con las necesidades de cada proyecto.
+            Busco aplicar estos conocimientos en soluciones prácticas, seguir desarrollándome
+            en el área tecnológica y crear herramientas claras y útiles según las necesidades
+            de cada proyecto.
           </p>
         </div>
 

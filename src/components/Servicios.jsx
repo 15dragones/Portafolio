@@ -1,10 +1,11 @@
 import './Servicios.css'
 
 const services = [
-  'Desarrollo Full Stack',
-  'Análisis de datos y BI',
-  'Automatización de procesos',
-  'Consultoría tecnológica',
+  'Diseño de bases de datos',
+  'Consultas y programación SQL',
+  'Análisis exploratorio de datos',
+  'Prototipos básicos con Python y Java',
+  'Orientación en hardware de computadoras',
 ]
 
 function Servicios() {

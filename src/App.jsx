@@ -1,4 +1,5 @@
 import './App.css'
+import Certificados from './components/Certificados'
 import Banner from './components/Banner'
 import Contacto from './components/Contacto'
 import Navbar from './components/Navbar'
@@ -15,6 +16,7 @@ function App() {
         <Perfil />
         <Servicios />
         <Proyectos />
+        <Certificados />
         <Contacto />
       </main>
     </div>
