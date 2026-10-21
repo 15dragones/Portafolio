@@ -75,6 +75,14 @@ function Certificados() {
                 />
               </a>
             )}
+            {certificado.formato !== 'JPG' && (
+              <iframe
+                className="certificado-preview certificado-pdf-preview"
+                src={`${certificado.archivo}#toolbar=0&navpanes=0`}
+                title={`Vista previa del certificado ${certificado.titulo}`}
+                loading="lazy"
+              />
+            )}
             <h3>{certificado.titulo}</h3>
             <div className="certificado-actions">
               <a href={certificado.archivo} target="_blank" rel="noreferrer">

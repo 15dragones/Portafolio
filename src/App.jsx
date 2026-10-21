@@ -5,6 +5,7 @@ import Contacto from './components/Contacto'
 import Navbar from './components/Navbar'
 import Perfil from './components/Perfil'
 import Proyectos from './components/Proyectos'
+import SocialLinks from './components/SocialLinks'
 import Servicios from './components/Servicios'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Certificados />
         <Contacto />
       </main>
+      <SocialLinks />
     </div>
   )
 }
