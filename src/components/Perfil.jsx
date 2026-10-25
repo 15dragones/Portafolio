@@ -46,7 +46,7 @@ function Perfil() {
       <div className="perfil-grid">
         <div className="perfil-copy">
           <p>
-            Soy Adolfo Choque Coque y me interesa la tecnología, la programación y el análisis
+            Soy Adolfo Choque Choque y me interesa la tecnología, la programación y el análisis
             de datos. Mi formación incluye cursos de ciencia de datos, Python, hardware,
             diseño de bases de datos, SQL y Java, realizados con Cisco Networking Academy y
             Oracle Academy.

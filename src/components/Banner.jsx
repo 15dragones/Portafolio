@@ -11,13 +11,13 @@ function Banner() {
         </div>
 
         <div className="profile-photo-container">
-          <img src={miFoto} alt="Adolfo Choque Coque" className="profile-photo" />
+          <img src={miFoto} alt="Adolfo Choque Choque" className="profile-photo" />
         </div>
 
         <h1 className="hero-title">
           Adolfo
           <br />
-          <span className="text-cyan">Choque Coque</span>
+          <span className="text-cyan">Choque Choque</span>
         </h1>
 
         <h2 className="hero-subtitle">

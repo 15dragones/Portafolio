@@ -213,9 +213,30 @@
   transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
+.contacto-form .contacto-help button {
+  display: grid;
+  width: 1.25rem;
+  height: 1.25rem;
+  flex: 0 0 1.25rem;
+  justify-self: center;
+  padding: 0;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  color: #00d8ff;
+  background: transparent;
+  line-height: 1;
+}
+
 .contacto-form button:hover {
   background: #54e5ff;
   transform: translateY(-2px);
+}
+
+.contacto-form .contacto-help button:hover {
+  color: #54e5ff;
+  background: transparent;
+  transform: none;
 }
 
 .contacto-form button:disabled {
