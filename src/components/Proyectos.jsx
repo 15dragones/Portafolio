@@ -1,7 +1,9 @@
 import './Proyectos.css'
 import appSqliteImage from '../assets/proyecto-app-sqlite.png'
 import tinkercadImage from '../assets/proyecto-arduino-tinkercad.png'
+import gasSensorImage from '../assets/proyecto-arduino-sensor-tinkercad.png'
 import matriculaImage from '../assets/proyecto-sistema-matricula.png'
+import proformaImage from '../assets/proforma-ventas-app.png'
 
 const projects = [
   {
@@ -24,6 +26,27 @@ const projects = [
     imageAlt: 'Circuito Arduino con potenciómetro y tres LEDs en Tinkercad',
     link: 'https://www.tinkercad.com/things/fPPbmTqiI5B/editel?returnTo=%2Fdashboard&sharecode=ijNZqCQFUbVIe1cBY3qzchhYdkPNNAlmYFdz6XDZnvM',
     linkLabel: 'Ver proyecto',
+  },
+  {
+    title: 'Alarma con sensor de gas y Arduino',
+    category: 'Electrónica',
+    description: 'Prototipo simulado en Tinkercad que integra una placa Arduino, un sensor de gas y una alarma sonora.',
+    tech: ['Arduino', 'Sensor de gas', 'Tinkercad'],
+    image: gasSensorImage,
+    imageAlt: 'Circuito Arduino con sensor de gas y buzzer simulado en Tinkercad',
+    link: 'https://www.tinkercad.com/things/ia0jDUBvcIA/editel?returnTo=%2Fdashboard&sharecode=5D2prATfue02zW51kt9MOgEgC8Y9OYldCgP4I8sipUI',
+    linkLabel: 'Ver circuito',
+  },
+  {
+    title: 'Aplicación móvil de proformas de venta',
+    category: 'Aplicación móvil',
+    description: 'Aplicación Android para registrar productos, ingresar precios y cantidades, calcular totales y gestionar los registros de una proforma.',
+    tech: ['Android', 'Gestión de ventas'],
+    image: proformaImage,
+    imageAlt: 'Capturas de la aplicación móvil Proforma de Ventas con productos registrados y total',
+    link: '/descargas/proforma-ventas.apk',
+    linkLabel: 'Descargar APK',
+    download: true,
   },
   {
     title: 'Sistema de Matrícula - SENATI',
